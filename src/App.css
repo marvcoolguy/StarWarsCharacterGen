@@ -1,3 +1,14 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #282c34;
+  height: 100vh;
+}
+
 .App {
   text-align: center;
 }
@@ -7,11 +18,6 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -30,16 +36,21 @@
   color: white;
   padding: 20px;
   height: 100%;
-  width: 50vw;
+  width: 100%;
 }
 
 .flex-container {
+  width: 100%;
   display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
   flex-direction: row;
   justify-content: space-between;
 }
 
 .characterImg {
+  height: auto;
+  max-width: 100%;
   display: flex;
   align-items: center;
   height: relative;
@@ -68,3 +79,16 @@
 }
 
 
+@media (max-width: 1024px) {
+  .flex-container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .characterImg {
+    height: 300px;
+  }
+  .card {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

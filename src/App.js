@@ -55,7 +55,7 @@ class StarWars extends React.Component {
               <h3>Hair Color: {this.state.hair_color}</h3>
               <h3>Skin Color: {this.state.skin_color}</h3>
             </div>
-            <div className="characterImg"><img src={this.state.imgSrc} height="500px" width="400px"/></div>
+            <div className="characterImg"><img src={this.state.imgSrc} height="350px" width="250px"/></div>
           </div>
           }
         </div>
