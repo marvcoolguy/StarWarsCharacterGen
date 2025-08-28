@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/StarWarsCharacterGen/static/css/main.ddfcc86c.css",
-    "main.js": "/StarWarsCharacterGen/static/js/main.199cde7f.js",
+    "main.css": "/StarWarsCharacterGen/static/css/main.61a274c2.css",
+    "main.js": "/StarWarsCharacterGen/static/js/main.ee972c02.js",
     "static/js/453.96453769.chunk.js": "/StarWarsCharacterGen/static/js/453.96453769.chunk.js",
+    "static/media/background2.jpeg": "/StarWarsCharacterGen/static/media/background2.6c4b5db06c4eff79c76a.jpeg",
     "index.html": "/StarWarsCharacterGen/index.html",
-    "main.ddfcc86c.css.map": "/StarWarsCharacterGen/static/css/main.ddfcc86c.css.map",
-    "main.199cde7f.js.map": "/StarWarsCharacterGen/static/js/main.199cde7f.js.map",
+    "main.61a274c2.css.map": "/StarWarsCharacterGen/static/css/main.61a274c2.css.map",
+    "main.ee972c02.js.map": "/StarWarsCharacterGen/static/js/main.ee972c02.js.map",
     "453.96453769.chunk.js.map": "/StarWarsCharacterGen/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddfcc86c.css",
-    "static/js/main.199cde7f.js"
+    "static/css/main.61a274c2.css",
+    "static/js/main.ee972c02.js"
   ]
 }
