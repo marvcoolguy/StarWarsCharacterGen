@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/StarWarsCharacterGen/static/css/main.be5f5ad8.css",
+    "main.js": "/StarWarsCharacterGen/static/js/main.af01e6a9.js",
+    "static/js/453.96453769.chunk.js": "/StarWarsCharacterGen/static/js/453.96453769.chunk.js",
+    "index.html": "/StarWarsCharacterGen/index.html",
+    "main.be5f5ad8.css.map": "/StarWarsCharacterGen/static/css/main.be5f5ad8.css.map",
+    "main.af01e6a9.js.map": "/StarWarsCharacterGen/static/js/main.af01e6a9.js.map",
+    "453.96453769.chunk.js.map": "/StarWarsCharacterGen/static/js/453.96453769.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be5f5ad8.css",
+    "static/js/main.af01e6a9.js"
+  ]
+}
