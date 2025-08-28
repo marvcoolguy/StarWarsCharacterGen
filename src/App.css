@@ -20,6 +20,9 @@ body {
 
 
 .App-header {
+  background-image: url('./background2.jpeg');
+  background-size: cover;
+  background-position: center;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
