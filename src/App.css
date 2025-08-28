@@ -21,18 +21,50 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  color: orange;
+}
+
+.card {
+  /* background-color: orange; */
+  text-align: left;
   color: white;
+  padding: 20px;
+  height: 100%;
+  width: 50vw;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.characterImg {
+  display: flex;
+  align-items: center;
+  height: relative;
+  /* background-color: purple; */
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn {
+  background-color: transparent;
+  border: 1px solid orange;
+  color: orange;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: auto;
 }
+
+.btn:hover {
+  background-color: orange;
+  color: white;
+  transform: scale(0.98);
+  transition: 800ms;
+}
+
+
